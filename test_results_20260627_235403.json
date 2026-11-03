@@ -1,0 +1,56 @@
+{
+  "passed": [],
+  "failed": [],
+  "errors": [
+    {
+      "category": "Bug Fix Tests",
+      "query": "Which day recorded the highest trading volume?",
+      "error": "HTTP 403: <!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\">\n  <meta name=\"robots\" content=\"NONE,NOARCHIVE\">\n  <title>403 Forbidden</title>\n  <style>\n "
+    },
+    {
+      "category": "Bug Fix Tests",
+      "query": "Was Microsoft's stock price higher on 12-06-2026 or 18-06-2026?",
+      "error": "HTTP 403: <!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\">\n  <meta name=\"robots\" content=\"NONE,NOARCHIVE\">\n  <title>403 Forbidden</title>\n  <style>\n "
+    },
+    {
+      "category": "Bug Fix Tests",
+      "query": "Compare the closing price on 17-06-2026 and 18-06-2026.",
+      "error": "HTTP 403: <!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\">\n  <meta name=\"robots\" content=\"NONE,NOARCHIVE\">\n  <title>403 Forbidden</title>\n  <style>\n "
+    },
+    {
+      "category": "Hallucination Tests (CRITICAL)",
+      "query": "What was Microsoft's closing price on 01-01-2028?",
+      "error": "HTTP 403: <!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\">\n  <meta name=\"robots\" content=\"NONE,NOARCHIVE\">\n  <title>403 Forbidden</title>\n  <style>\n "
+    },
+    {
+      "category": "Hallucination Tests (CRITICAL)",
+      "query": "Tell me about Tesla stock in this dataset.",
+      "error": "HTTP 403: <!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\">\n  <meta name=\"robots\" content=\"NONE,NOARCHIVE\">\n  <title>403 Forbidden</title>\n  <style>\n "
+    },
+    {
+      "category": "Hallucination Tests (CRITICAL)",
+      "query": "What was the PE ratio?",
+      "error": "HTTP 403: <!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\">\n  <meta name=\"robots\" content=\"NONE,NOARCHIVE\">\n  <title>403 Forbidden</title>\n  <style>\n "
+    },
+    {
+      "category": "Basic Functionality",
+      "query": "What was Microsoft's closing price on 18-06-2026?",
+      "error": "HTTP 403: <!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\">\n  <meta name=\"robots\" content=\"NONE,NOARCHIVE\">\n  <title>403 Forbidden</title>\n  <style>\n "
+    },
+    {
+      "category": "Basic Functionality",
+      "query": "Show all days where the closing price was above $390.",
+      "error": "HTTP 403: <!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\">\n  <meta name=\"robots\" content=\"NONE,NOARCHIVE\">\n  <title>403 Forbidden</title>\n  <style>\n "
+    },
+    {
+      "category": "Basic Functionality",
+      "query": "What is the average closing price?",
+      "error": "HTTP 403: <!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\">\n  <meta name=\"robots\" content=\"NONE,NOARCHIVE\">\n  <title>403 Forbidden</title>\n  <style>\n "
+    },
+    {
+      "category": "Basic Functionality",
+      "query": "Top 10 highest closing prices.",
+      "error": "HTTP 403: <!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta http-equiv=\"content-type\" content=\"text/html; charset=utf-8\">\n  <meta name=\"robots\" content=\"NONE,NOARCHIVE\">\n  <title>403 Forbidden</title>\n  <style>\n "
+    }
+  ]
+}
