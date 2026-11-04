@@ -27,8 +27,11 @@ SECRET_KEY = 'django-insecure-$veg%b!-o&tqlm=^0ql_=78*&_u1ehv=1e8drr@@c_+tkkly7#
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
-
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    "finbot-8pul.onrender.com",
+    "localhost",
+    "127.0.0.1",
+]
 
 
 # Application definition
